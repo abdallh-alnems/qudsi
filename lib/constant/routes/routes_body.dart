@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:qudsi/constant/routes/routes.dart';
 import 'package:qudsi/view/screen/core_screen/products.dart';
-
 import '../../view/screen/categories/another.dart';
 import '../../view/screen/categories/cafes.dart';
 import '../../view/screen/categories/digital_platforms.dart';
@@ -32,7 +31,6 @@ Map<String, Widget Function(BuildContext)> routes = {
 
 //==================================categories==================================
 
-
   AppRoutes.another: (context) => const Another(),
 
   AppRoutes.cafes: (context) => const Cafes(),
@@ -61,11 +59,7 @@ Map<String, Widget Function(BuildContext)> routes = {
 
   AppRoutes.transport: (context) => const Transport(),
 
-
-
-
 //==================================search======================================
-
 
   AppRoutes.searchProducts: (context) => const SearchProducts(),
 
