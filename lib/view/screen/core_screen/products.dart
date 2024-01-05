@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:qudsi/constant/theme/app_colors.dart';
-
 import '../../../constant/routes/routes.dart';
 import '../../../functions/builder/products_builder.dart';
 import '../../../functions/message/alert_exit_app.dart';
@@ -20,7 +19,6 @@ class Products extends StatelessWidget {
   Widget build(BuildContext context) {
     final ProductsController productsController =
         Get.find<ProductsController>();
-
     final MessageOnceController messageOnce = Get.find<MessageOnceController>();
     WidgetsBinding.instance.addPostFrameCallback((_) {
       messageOnce.showExitDialogOnce();
