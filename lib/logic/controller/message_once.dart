@@ -13,7 +13,7 @@ class MessageOnceController extends GetxController {
       title: "تنبية",
       titleStyle: const TextStyle(color: AppColors.secondaryColor),
       middleText:
-          "الهدف الأول والأخير من التطبيق هو مساعدة إخوتنا في غزة وإعلانات التطبيق ستذهب معظمها إلى غزة",
+          "ليس الهدف من التطبيق هو الربح وانما الهدف الاول والاخير هو المساعدة",
       middleTextStyle: const TextStyle(color: AppColors.secondaryColor),
       actions: [
         ElevatedButton(
